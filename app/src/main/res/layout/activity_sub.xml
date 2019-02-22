@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:background="#EDF1F0"
+    android:padding="10dp"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    >
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radiogroupid">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="দৈর্ঘ্য ও দূরত্ব"
+            android:textSize="20sp"
+            android:id="@+id/lengthid"
+            android:textStyle="bold"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ক্ষেত্রফল"
+            android:textSize="20sp"
+            android:id="@+id/areaid"
+            android:textStyle="bold"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="আয়তন"
+            android:id="@+id/volumeid"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ওজন"
+            android:id="@+id/weightid"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="তাপমাত্রা"
+            android:id="@+id/temperatureid"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+    </RadioGroup>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonid"
+        android:textStyle="bold"
+        android:text="submit"
+        android:textAllcaps="true"
+
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:background="#3F51B5"/>
+
+
+
+</LinearLayout>
